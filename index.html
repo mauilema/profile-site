@@ -5,11 +5,78 @@
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
 <style id="jsbin-css">
-.main-content{
-  /* border: 3px solid red; */
+.main-content-work-experience {
+  border: 1px solid black;
   width: 1150px;
   margin-left: auto;
   margin-right: auto; 
+  margin-top: 45px;
+  margin-bottom: 45px;
+  /* margin: 45px;  */
+  /* margin-left: 200px; */
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #ebaeb4;
+}
+
+.main-content-about-me {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #b3ebab;
+}
+
+
+  
+.main-content-education {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+    padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #b3ebab;
+}
+
+.main-content-hobbies {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 45px;
+  /* margin: 45px;  */
+ /*  margin-left: 1100px; */
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #ebaeb4;
+}
+
+.top-division{
+  border: 1px solid black;
+  background-color: #6ec9cc;
+  box-shadow: 0 0 8px #1c6163;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-content{
+  border: 1px solid black;
+  /* width: 2450px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px; 
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #f0efda;
 }
 
 .font-for-section-titles{
@@ -22,9 +89,10 @@
 }
 
 .font-for-section-content{
-  font-size: 17px;
+  font-size: 18px;
   font-family: Tahoma;
-  color: #0a687a;
+  color: black;
+  
 }
 
 .header-color{
@@ -36,7 +104,7 @@
   rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 body {
-    background-color: #f0efda;
+    background-color: #c97575;
   }
 
 /* below this is the style for the drop down contact me button */
@@ -130,6 +198,7 @@ body {
 
 #about-me-section{
   padding-top:30px;
+  
 }
 
 
@@ -150,35 +219,35 @@ body {
 </head>
 <body>
   
-  
-  <div class="container">
-    <div id="profile-pic"></div>
-    <div id="right-of-profile-pic">
-      <span id="my-name">Jose Lema</span>
-      </br>
-    <span id="my-location"><a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">📍</a><a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">Brooklyn, New York</a>
-    </span>
-     </br>
-     </br>
-    <div class="dropdown">
-      <button class="dropbtn">Contact Me</button>
-      <div class="dropdown-content">
-        <a href="mailto:srjorgemaciel2002@gmail.com" target="_blank">Email Me</a>
-        <a href="https://www.linkedin.com/in/josemlema/" target="_blank">Linked In</a>
-        <a href="https://github.com/mauilema" target="_blank">Github</a>
+  <div class="top-division">
+    <div class="container">
+      <div id="profile-pic"></div>
+      <div id="right-of-profile-pic">
+        <span id="my-name">Jose Lema</span>
+        </br>
+      <span id="my-location"><a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">📍</a><a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">Brooklyn, New York</a>
+      </span>
+       </br>
+       </br>
+      <div class="dropdown">
+        <button class="dropbtn">Contact Me</button>
+        <div class="dropdown-content">
+          <a href="mailto:srjorgemaciel2002@gmail.com" target="_blank">Email Me</a>
+          <a href="https://www.linkedin.com/in/josemlema/" target="_blank">Linked In</a>
+          <a href="https://github.com/mauilema" target="_blank">Github</a>
+        </div>
       </div>
-    </div>
-    </div>
-   </div>  
-
+      </div>
+     </div>  
+   </div>
 
   <div class="main-content">       
-      <div id="about-me-section">
+      <div class="main-content-about-me">
         <h1 class="font-for-section-titles">About Me:</h1>
         <span class="font-for-section-content">Fullstack Academy Student in the 2021 Future Coders Program. I'm of Latin American decent. My favorite coding language so far is CSS as it allows me to express my creativity. I enjoy watching videos on Youtube from tutorials to podcasts to livestreams, there is so much valuable content to watch! I have a good memory for important topics and embrace creativity in the workplace. </span>
       </div>
 
-      <div>
+      <div class="main-content-work-experience">
         <h1 class="font-for-section-titles">Work Experience</h1>
 
         <div class="font-for-section-content">
@@ -230,12 +299,12 @@ body {
         </div>
       </div>
 
-      <div>
+      <div class="main-content-education">
         <h1 class="font-for-section-titles">Education</h1>
         <h4 class="header-color">CUNY Brooklyn College. Brooklyn, NY </h4>
         <p class="font-for-section-content">B.A. Business Management - Finance</p>
       </div>
-        <div>
+        <div class="main-content-hobbies">
           <h1 class="font-for-section-titles">Hobbies</h1>
           <p class="font-for-section-content">Soccer: I practive soccer every Sunday during the Summer. It helps me to have fun while I exercise.</p> 
           <p class="font-for-section-content">Coding: this is a new hobby I developed recently as a result of my new career as a Software Engineer.</p>
@@ -246,11 +315,78 @@ body {
 
 
 
-<script id="jsbin-source-css" type="text/css">.main-content{
-  /* border: 3px solid red; */
+<script id="jsbin-source-css" type="text/css">.main-content-work-experience {
+  border: 1px solid black;
   width: 1150px;
   margin-left: auto;
   margin-right: auto; 
+  margin-top: 45px;
+  margin-bottom: 45px;
+  /* margin: 45px;  */
+  /* margin-left: 200px; */
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #ebaeb4;
+}
+
+.main-content-about-me {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #b3ebab;
+}
+
+
+  
+.main-content-education {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+    padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #b3ebab;
+}
+
+.main-content-hobbies {
+  border: 1px solid black;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 45px;
+  /* margin: 45px;  */
+ /*  margin-left: 1100px; */
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #ebaeb4;
+}
+
+.top-division{
+  border: 1px solid black;
+  background-color: #6ec9cc;
+  box-shadow: 0 0 8px #1c6163;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-content{
+  border: 1px solid black;
+  /* width: 2450px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px; 
+  padding: 20px;
+  box-shadow: 0 0 8px #1c6163;
+  border-radius: 5px;
+  background-color: #f0efda;
 }
 
 .font-for-section-titles{
@@ -263,9 +399,10 @@ body {
 }
 
 .font-for-section-content{
-  font-size: 17px;
+  font-size: 18px;
   font-family: Tahoma;
-  color: #0a687a;
+  color: black;
+  
 }
 
 .header-color{
@@ -277,7 +414,7 @@ body {
   rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 body {
-    background-color: #f0efda;
+    background-color: #c97575;
   }
 
 /* below this is the style for the drop down contact me button */
@@ -371,6 +508,7 @@ body {
 
 #about-me-section{
   padding-top:30px;
+  
 }
 
 
@@ -393,3 +531,29 @@ body {
  
 </script>
 </body>
+
+<!-- show message on hovering over picture-->
+<!-- click on hobby name for moving pic; refer back to Angel's business card -->
+<!-- add contact me toggle display hidden section;done -->
+<!-- put main content in a container class and center inside the document; didn't work -->
+<!-- make drop down content link open in new tab;done -->
+<!-- add vision at the bottom end: not really neccessary-->
+<!-- style the font a bit more -->
+<!-- use toggle hidden for hobbies -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
